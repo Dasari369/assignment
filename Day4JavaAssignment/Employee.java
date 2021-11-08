@@ -39,22 +39,11 @@ public class Employee implements Comparable<Employee> {
 		EmpSal = empSal;
 	}
 	
-	
-	
-
 	@Override
 	public String toString() {
 		return "EmpId=" + EmpId + ", EmpName=" + EmpName + ", EmpSal=" + EmpSal ;
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
