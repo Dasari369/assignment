@@ -7,7 +7,7 @@ import java.util.List;
 
 
 public class UserEmployee {
-	public static void main(String args[])
+	public static void main(String args[]) throws DuplicateEmployeeIDException
 	{
 		Employee e1 = new Employee(123,"klaus",50000);
 		Employee e2 = new Employee(211,"rebekah",20000);
@@ -29,6 +29,8 @@ public class UserEmployee {
 	   System.out.println("After deleting Employee");
 	   //deleting employee 6
 	   emplist.deleteEmployee(e6);
+		
+		Collections.sort(emplist.emplist);
  }
 
 	
